@@ -14,18 +14,29 @@ public class Main{
         al.add(true);
         al.add(28.9);
 
-        //to know the size of object size method is used.
+        //To know the size of object size method is used.
         System.out.println("The number of elements in the ArrayList: "+al.size());
 
-        //to remove elements remove() method is used.
+        //To remove elements remove() method is used.
         al.remove(2); //here removing element with index
         al.remove(true); //here removing element with object
-        System.out.println("After remove The number of elements in the ArrayList: "+al.size());
+        System.out.println("After remove : "+al);
 
         //insert a new element in desired position
         //after inserting the values will be preserve
         //add(index, object)
         al.add(1, "Hey");
-        System.out.println("After insertion The number of elements in the ArrayList: "+al.size());
+        System.out.println("After insertion : "+al);
+
+        //To retreive specific element from object. get() method is used.
+        //specifing index of element or target
+        System.out.println(al.get(1));
+
+        //To change element or replace. set() method is used.
+        al.set(1, "Java");
+        System.out.println("After Replacing : "+al);
+
+        //To search element - contains() - Returns true / false
+        System.out.println(al.contains("Java"));
     }
 }
