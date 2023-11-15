@@ -37,6 +37,13 @@ public class Main{
         System.out.println("After Replacing : "+al);
 
         //To search element - contains() - Returns true / false
-        System.out.println(al.contains("Java"));
+        System.out.println(al.contains("Java")); //return true
+        System.out.println(al.contains("Python")); //return false
+
+        //To know whether the object is empty. isEmpty() method is used.
+        //It will return bool values
+        System.out.println(al.isEmpty());
+
+
     }
 }
