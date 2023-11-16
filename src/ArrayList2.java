@@ -20,7 +20,7 @@ public class ArrayList2 {
         ArrayList al2 = new ArrayList<>();
         al2.addAll(al);
 
-        System.out.println(al2);
+        System.out.println(al2); //print values of al2
 
     }
 }
