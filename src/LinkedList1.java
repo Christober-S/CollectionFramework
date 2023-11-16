@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -28,5 +29,12 @@ public class LinkedList1 {
         //Insert/Adding element in the middle of linkedList
         ll.add(3, 7.14);
         System.out.println("LinkedList after Insertion: "+ll);
+
+        //Retriving of element
+        System.out.println(ll.get(3));
+
+        //Seting value replace
+        ll.set(5, "Java");
+        System.out.println("LinkedList after replacing value: "+ll);
     }
 }
