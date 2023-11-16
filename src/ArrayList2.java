@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayList2 {
     public static void main(String[] args) {
@@ -21,11 +22,17 @@ public class ArrayList2 {
         //adding all values
         al2.addAll(al);
 
-        System.out.println(al2); //print values of al2
+        System.out.println("Arraylist 2 values: "+al2); //print values of al2
 
         //removing all values
         al2.removeAll(al);
-        System.out.println(al2);
+        System.out.println("ArrayList 2 Values after removal: "+al2);
+
+        //In collections class there is an method called sort
+        //Sort --> It will sort the values in order
+
+        Collections.sort(al);
+        System.out.println("ArrayList values after sorted: "+al);
 
     }
 }
