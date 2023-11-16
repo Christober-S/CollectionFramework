@@ -18,9 +18,14 @@ public class ArrayList2 {
 
         //Created new arrayList
         ArrayList al2 = new ArrayList<>();
+        //adding all values
         al2.addAll(al);
 
         System.out.println(al2); //print values of al2
+
+        //removing all values
+        al2.removeAll(al);
+        System.out.println(al2);
 
     }
 }
