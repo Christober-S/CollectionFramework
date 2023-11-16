@@ -61,5 +61,7 @@ public class LinkedList1 {
         while (it.hasNext()){
             System.out.print(it.next()+" ");
         }
+
+
     }
 }
