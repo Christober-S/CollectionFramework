@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Main{
+public class ArrayList1 {
     public static void main(String[] args) {
 
         //ArrayList declaration and it can store hetrogeonus data's
