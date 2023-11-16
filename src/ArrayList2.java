@@ -38,5 +38,8 @@ public class ArrayList2 {
         Collections.sort(al, Collections.reverseOrder()); //using this method with this paramater the values will be in reverse order
         System.out.println("ArrayList values in reverse order: "+al);
 
+        //ArrayList shuffle order(random)
+        Collections.shuffle(al);
+        System.out.println("ArrayList after shuffle: "+al);
     }
 }

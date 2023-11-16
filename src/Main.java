@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Main{
     public static void main(String[] args) {
@@ -40,10 +41,29 @@ public class Main{
         System.out.println(al.contains("Java")); //return true
         System.out.println(al.contains("Python")); //return false
 
-        //To know whether the object is empty. isEmpty() method is used.
-        //It will return bool values
+//        To know whether the object is empty. isEmpty() method is used.
+//        It will return bool values
         System.out.println(al.isEmpty());
 
+        //How to iterate ArrayList
+        //1)For Loop
+        System.out.println("Using for loop");
+        for (int i = 0; i<al.size(); i++){
+            System.out.print(al.get(i)+" ");
+        }
+
+        //2)for..each loop
+        System.out.println("using for each loop");
+        for (Object e : al) {
+            System.out.print(e+" ");
+        }
+
+        //3)iterator()
+        System.out.println("Using iterator method which if from collection interface");
+        Iterator it = al.iterator();
+        while(it.hasNext()){
+            System.out.print(it.next()+" ");
+        }
 
     }
 }
