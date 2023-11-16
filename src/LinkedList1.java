@@ -36,5 +36,30 @@ public class LinkedList1 {
         //Seting value replace
         ll.set(5, "Java");
         System.out.println("LinkedList after replacing value: "+ll);
+
+        //Contains()
+        System.out.println(ll.contains("Java"));
+
+        //isEmpty()
+        System.out.println(ll.isEmpty());
+
+        //Reading elements from the LinkedList
+        //For() loop
+        for (int i = 0; i < ll.size(); i++) {
+            System.out.print(ll.get(i)+" ");
+        }
+        System.out.println();
+
+        //For..each loop
+        for (Object E: ll) {
+            System.out.print(E+" ");
+        }
+        System.out.println();
+
+        //Iterator
+        Iterator it = ll.iterator();
+        while (it.hasNext()){
+            System.out.print(it.next()+" ");
+        }
     }
 }
