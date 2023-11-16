@@ -17,5 +17,16 @@ public class LinkedList1 {
         ll.add(null); //In LinkedList null also supported
 
         System.out.println(ll);
+
+        //There is no default size
+        System.out.println(ll.size());
+
+        //Removal of element
+        ll.remove(3);
+        System.out.println("LinkedList After Removal: "+ll);
+
+        //Insert/Adding element in the middle of linkedList
+        ll.add(3, 7.14);
+        System.out.println("LinkedList after Insertion: "+ll);
     }
 }
